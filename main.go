@@ -69,5 +69,5 @@ func main() {
     },
   }
 
-  fmt.Printf("result: %s\n", interpreter(&state, opcodes))
+  fmt.Printf("result: %v\n", interpreter(&state, opcodes))
 }
